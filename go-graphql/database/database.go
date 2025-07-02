@@ -12,7 +12,7 @@ import (
 	"time"
 )
 
-var connectionString string = "mongodb+srv://akhil:akhil@cluster0.td5oga4.mongodb.net/test"
+var connectionString string = "your_mongodb_url"
 
 type DB struct {
 	client *mongo.Client
