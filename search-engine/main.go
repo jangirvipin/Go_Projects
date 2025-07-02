@@ -42,7 +42,7 @@ func main() {
 			continue
 		}
 
-		fmt.Println("Matched Documents:")
+		fmt.Println("Matched Documents:");
 		for _, idx := range result {
 			fmt.Printf("Doc %d: %s\n", idx, documents[idx])
 		}
